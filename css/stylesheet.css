@@ -54,15 +54,15 @@ body {
 }
 
 .main-content {
-  background: #BBBBF7;
+  background: blue
 }
 
 .slogan {
-  background: #F5DDB3;
+  background: orange
 }
 
 .footer {
-  background: #A4EEA4;
+  background: green
 }
 
 
@@ -118,7 +118,7 @@ body {
     align-items: center;
   }
   .header,
-  .navigation,
+  .main-menu,
   .main-content,
   .slogan,
   .footer {
@@ -161,5 +161,25 @@ body {
     background: #988574;
     color: #fff;
     padding: 0 1rem;
+  }
+  .navigation {
+    background: #988574;
+    border-top: 2px solid#222;
+    border-bottom: 2px solid#222;
+    padding: 1rem 0;
+  }
+  .main-menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .main-menu span {
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: -1px 0 0 #000, 0 -1px 0 #000, 1px 0 0 #000, 0 1px 0 #000;
+  }
+  .sub-menu li {
+    margin: 0.5rem 0 0.5rem 0.5rem;
   }
 }
